@@ -96,14 +96,14 @@ form .form-control {
     }
 
     .home {
-        background: url(../img/background.png);
+        background: url(background.png);
         background-size: 100%;
     }
 }
 
 @media (max-width: 500px) {
     .home {
-        background: url(../img/background.png) no-repeat;
+        background: url(background.png) no-repeat;
         background-size: 100%;
         height: 300px !important;
         background-position: center;
