@@ -1,0 +1,102 @@
+body {
+    font-family: "Sora", sans-serif;
+    line-height: 1.7;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+img {
+    width: 10%;
+}
+
+.logo {
+    width: 160px;
+}
+
+.navbar .nav-link {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.btn {
+    padding: 14px 18px;
+    border-width: 2px;
+}
+
+.home {
+    background: url(../background.png) no-repeat 100% 100%;
+    background-size: cover;
+}
+
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.card-effect {
+    background-color: #fff;
+    padding: 25px;
+}
+
+.card-effect:hover {
+    box-shadow: none;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+.social-icons svg {
+    width: 34px;
+    height: 34px;
+    margin: 30px;
+    color: black;
+}
+
+.social-icons svg:hover {
+    color: #0d6efd;
+    cursor: pointer;
+}
+#contact_message:disabled {
+    opacity: 0.8;
+}
+
+form input.form-control {
+    height: 56px;
+}
+
+form .form-control {
+    background-color: rgba(0,0,0,0.02);
+}
+
+@media (max-width: 1000px) {
+    ul {
+        /* width: 100%; */
+        /* height: 100vh; */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+        text-align: center !important;
+        transition: all .5s;
+    }
+
+    .nav-item {
+        margin: 40px 0 !important;
+        line-height: 30px !important;
+    }
+
+    .nav-link {
+        font-size: 20px !important;
+    }
+
+    .home vh-100 {
+        background-size: cover;
+        width: 50px;
+    }
+}
